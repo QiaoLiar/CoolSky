@@ -3,16 +3,19 @@ package com.coolsky.android.db;
 import org.litepal.crud.DataSupport;
 
 public class Province extends DataSupport {
+
     private int id;
+
     private String provinceName;
+
     private int provinceCode;
 
-    public int getProvinceCode() {
-        return provinceCode;
+    public int getId() {
+        return id;
     }
 
-    public void setProvinceCode(int provinceCode) {
-        this.provinceCode = provinceCode;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getProvinceName() {
@@ -23,11 +26,11 @@ public class Province extends DataSupport {
         this.provinceName = provinceName;
     }
 
-    public int getId() {
-        return id;
+    public int getProvinceCode() {
+        return provinceCode;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setProvinceCode(int provinceCode) {
+        this.provinceCode = provinceCode;
     }
 }
